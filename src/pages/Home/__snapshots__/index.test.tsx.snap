@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Home page 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-fsQiIR eRjTXn"
+    >
+      <h1>
+        Application Form
+      </h1>
+    </div>
+    <form
+      class="sc-iAEyCc WytVh"
+    >
+      <div
+        class="sc-gLDxTj ejevhj"
+      >
+        <div
+          class="sc-hLsdIM btFSFx"
+        >
+          <label
+            class="sc-gueWre dVhXsQ"
+            for="firstName"
+          >
+            First Name 
+            <span
+              class="sc-dmqGxT Ka-dMI"
+            >
+              *
+            </span>
+          </label>
+          <input
+            aria-describedby="exp-firstName"
+            aria-required="true"
+            class="sc-eDDNPB iOEymh"
+            id="firstName"
+            name="firstName"
+            placeholder="First name"
+            type="name"
+          />
+        </div>
+        <div
+          class="sc-hLsdIM btFSFx"
+        >
+          <label
+            class="sc-gueWre dVhXsQ"
+            for="lastName"
+          >
+            Last Name 
+            <span
+              class="sc-dmqGxT Ka-dMI"
+            >
+              *
+            </span>
+          </label>
+          <input
+            aria-describedby="exp-lastName"
+            aria-required="true"
+            class="sc-eDDNPB iOEymh"
+            id="lastName"
+            name="lastName"
+            placeholder="Last name"
+            type="name"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-hLsdIM btFSFx"
+      >
+        <label
+          class="sc-gueWre dVhXsQ"
+          for="email"
+        >
+          Email 
+          <span
+            class="sc-dmqGxT Ka-dMI"
+          >
+            *
+          </span>
+        </label>
+        <input
+          aria-describedby="exp-email"
+          aria-required="true"
+          class="sc-eDDNPB iOEymh"
+          id="email"
+          name="email"
+          type="email"
+        />
+      </div>
+      <div
+        class="sc-hLsdIM btFSFx"
+      >
+        <label
+          class="sc-gueWre dVhXsQ"
+          for="address1"
+        >
+          Address 1 
+        </label>
+        <input
+          aria-describedby="exp-address1"
+          aria-required="false"
+          class="sc-eDDNPB iOEymh"
+          id="address1"
+          name="address1"
+          placeholder="Address 1"
+          type="text"
+        />
+      </div>
+      <div
+        class="sc-gLDxTj ejevhj"
+      >
+        <div
+          class="sc-hLsdIM btFSFx"
+        >
+          <label
+            class="sc-gueWre dVhXsQ"
+            for="city"
+          >
+            City 
+          </label>
+          <input
+            aria-describedby="exp-city"
+            aria-required="false"
+            class="sc-eDDNPB iOEymh"
+            id="city"
+            name="city"
+            type="text"
+          />
+        </div>
+        <div
+          class="sc-hLsdIM btFSFx"
+        >
+          <label
+            class="sc-gueWre dVhXsQ"
+            for="state"
+          >
+            State 
+          </label>
+          <input
+            aria-describedby="exp-state"
+            aria-required="false"
+            class="sc-eDDNPB iOEymh"
+            id="state"
+            name="state"
+            type="text"
+          />
+        </div>
+        <div
+          class="sc-hLsdIM btFSFx"
+        >
+          <label
+            class="sc-gueWre dVhXsQ"
+            for="zip"
+          >
+            ZIP 
+          </label>
+          <input
+            aria-describedby="exp-zip"
+            aria-required="false"
+            class="sc-eDDNPB iOEymh"
+            id="zip"
+            name="zip"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-hLsdIM btFSFx"
+      >
+        <label
+          class="sc-gueWre dVhXsQ"
+          for="phone"
+        >
+          Phone number 
+          <span
+            class="sc-dmqGxT Ka-dMI"
+          >
+            *
+          </span>
+        </label>
+        <input
+          aria-describedby="exp-phone"
+          aria-required="true"
+          class="sc-eDDNPB iOEymh"
+          id="phone"
+          name="phone"
+          placeholder="999 999 9999"
+          type="phone"
+        />
+      </div>
+      <div
+        class="sc-hLsdIM btFSFx"
+      >
+        <label
+          class="sc-gueWre dVhXsQ"
+          for="jobTitle"
+        >
+          Job Title 
+        </label>
+        <select
+          aria-required="false"
+          class="sc-eDDNPB iOEymh"
+          id="jobTitle"
+          name="jobTitle"
+          placeholder="Please select job title"
+        >
+          <option
+            value="Engineer - lead"
+          >
+            Engineer - lead
+          </option>
+          <option
+            value="Engineer - mid level"
+          >
+            Engineer - mid level
+          </option>
+          <option
+            value="Engineer - junion"
+          >
+            Engineer - junion
+          </option>
+          <option
+            value="Engineer - front end focused"
+          >
+            Engineer - front end focused
+          </option>
+          <option
+            value="Engineer - backend focused"
+          >
+            Engineer - backend focused
+          </option>
+          <option
+            value="Engineer - full stack"
+          >
+            Engineer - full stack
+          </option>
+        </select>
+      </div>
+      <div
+        class="sc-hLsdIM btFSFx"
+      >
+        <label
+          class="sc-gueWre dVhXsQ"
+          for="reason"
+        >
+          Reason 
+        </label>
+        <textarea
+          aria-required="false"
+          class="sc-eDDNPB iOEymh"
+          id="reason"
+          name="reason"
+          placeholder="Describe why you are a good fit for the job you are applying for."
+        />
+      </div>
+      <button
+        class="sc-jTrNMu kkVpuo"
+      >
+        Submit
+      </button>
+      <p>
+        <span
+          class="sc-dmqGxT Ka-dMI"
+        >
+          *
+        </span>
+        Required field
+      </p>
+    </form>
+  </div>
+</DocumentFragment>
+`;

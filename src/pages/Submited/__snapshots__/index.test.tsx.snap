@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Submitted page 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-dmqGxT bvEMza"
+    >
+      <h1>
+        Thanks you!
+      </h1>
+      <p>
+        Your application was successfully submitted.
+      </p>
+    </div>
+    <div
+      class="sc-gueWre fYygbm"
+    >
+      <div
+        class="sc-beqWul dVXNzW"
+      >
+        <div
+          class="sc-hLsdIM gIyUnl"
+        >
+          Rosemary
+        </div>
+        <div
+          class="sc-hLsdIM gIyUnl"
+        >
+          J Jennings
+        </div>
+      </div>
+      <div
+        class="sc-hLsdIM gIyUnl"
+      >
+        somefake@gmail.com
+      </div>
+      <div
+        class="sc-hLsdIM gIyUnl"
+      >
+        1187 Twin Willow Lane
+      </div>
+      <div
+        class="sc-beqWul dVXNzW"
+      >
+        <div
+          class="sc-hLsdIM gIyUnl"
+        >
+          Wilmington
+        </div>
+        <div
+          class="sc-hLsdIM gIyUnl"
+        >
+          North Carolina
+        </div>
+        <div
+          class="sc-hLsdIM gIyUnl"
+        >
+          28412
+        </div>
+      </div>
+      <div
+        class="sc-hLsdIM gIyUnl"
+      >
+        910-520-1684
+      </div>
+      <div
+        class="sc-hLsdIM gIyUnl"
+      >
+        Engineer - lead
+      </div>
+      <div
+        class="sc-hLsdIM gIyUnl"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
