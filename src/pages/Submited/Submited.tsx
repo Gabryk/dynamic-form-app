@@ -1,8 +1,8 @@
 import { useSelector } from "react-redux";
 import { RootState } from "store";
 import { Field } from "constants/field-set";
-import DynamicLayout from "components/DynamicLayout";
-import Header from "components/Header";
+import DynamicLayout from "components/DynamicLayout/DynamicLayout";
+import Header from "components/Header/Header";
 import { FieldStyled } from "./styled";
 
 const Submited = () => {

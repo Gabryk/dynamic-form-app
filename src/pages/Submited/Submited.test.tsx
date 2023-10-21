@@ -1,6 +1,6 @@
 import React from "react";
 import { renderWithProviders } from "store/testUtility";
-import Submited from ".";
+import Submited from "./Submited";
 import ThemeProvider from "styles/ThemeProvider";
 
 const preloadedState = {

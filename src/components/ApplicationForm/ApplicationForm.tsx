@@ -1,20 +1,27 @@
 import { useForm } from "react-hook-form";
 import { Field as FieldProps } from "constants/field-set";
 import { validationErrors } from "constants/messages";
-import InputField from "components/InputField";
-import Button from "components/Button";
-import DynamicLayout from "components/DynamicLayout";
+import withApplicationSubmission from "hoc/withApplicationSubmission/withApplicationSubmission";
+import InputField from "components/InputField/InputField";
+import Button from "components/Button/Button";
+import DynamicLayout from "components/DynamicLayout/DynamicLayout";
 import { RequiredAsterisk } from "components/InputField/styled";
 import validate from "./validation";
+import { ErrorMessage } from "./styled";
 
 type FormData = { [x: string]: any };
 
 interface ApplicationFormProps {
   onSubmit: (data: FormData) => void;
-  isLoading?: boolean;
+  loading?: boolean;
+  error?: string;
 }
 
-const ApplicationForm = ({ onSubmit, isLoading }: ApplicationFormProps) => {
+const ApplicationForm = ({
+  onSubmit,
+  loading,
+  error,
+}: ApplicationFormProps) => {
   const { register, handleSubmit, formState } = useForm();
 
   const renderInputField = (field: FieldProps) => (
@@ -40,16 +47,23 @@ const ApplicationForm = ({ onSubmit, isLoading }: ApplicationFormProps) => {
         as: "form",
         onSubmit: handleSubmit(onSubmit),
       }}
-      loading={isLoading}
+      loading={loading}
     >
-      <Button type="submit" disabled={isLoading}>
+      <Button type="submit" disabled={loading}>
         Submit
       </Button>
+
       <p>
         <RequiredAsterisk>*</RequiredAsterisk>Required field
       </p>
+
+      {error && (
+        <ErrorMessage>
+          <p>😧 {error}</p>
+        </ErrorMessage>
+      )}
     </DynamicLayout>
   );
 };
 
-export default ApplicationForm;
+export default withApplicationSubmission(ApplicationForm);

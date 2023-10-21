@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
-import Home from "pages/Home";
+import Home from "pages/Home/Home";
 import { RootState } from "store";
-import Submited from "pages/Submited";
+import Submited from "pages/Submited/Submited";
 import ThemeProvider from "styles/ThemeProvider";
 
 function App() {

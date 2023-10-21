@@ -1,6 +1,6 @@
 import React from "react";
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
-import Input from ".";
+import Input from "./InputField";
 import { renderWithProviders } from "store/testUtility";
 import ThemeProvider from "styles/ThemeProvider";
 
